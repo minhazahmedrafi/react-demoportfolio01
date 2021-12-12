@@ -1,0 +1,18 @@
+@import "../../../globall.scss";
+.portfolioList {
+    font-size: 14px;
+    margin-right: 50px;
+    font-weight: 500;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    @include mobile{
+      margin-right: 10px;
+    }
+
+    &.active {
+        background-color: $mainColor;
+        color: #fff;
+    }
+}
